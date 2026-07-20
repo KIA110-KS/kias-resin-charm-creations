@@ -1,0 +1,144 @@
+/* General Website Style */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f5;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+header {
+    background-color: #f4b6c2;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+
+/* Navigation */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #8b3a62;
+}
+
+
+/* Main Content */
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #8b3a62;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* Images */
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 10px;
+}
+.logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+Where exactly do I add this
+
+/* Products Section */
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+
+/* Contact Form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #f4b6c2;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8b3a62;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #f4b6c2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+/* Mobile Design */
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
